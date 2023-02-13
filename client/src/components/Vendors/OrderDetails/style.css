@@ -1,0 +1,256 @@
+.cart-item {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.cart__title {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.cart-image {
+    border: 1px solid #d8d8d8;
+}
+
+.cart__item-description__handle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cart__item-handler {
+    display: flex;
+    justify-content: space-around;
+    border: 0.5px solid gray;
+    border-radius: 3px;
+    overflow: hidden;
+    height: 37px;
+}
+
+.cart__item-handler input {
+    width: 50px;
+    border: none;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.cart__item-handler input:focus {
+    outline: none;
+}
+
+.cart__item-handler-remove button {
+    font-weight: 600;
+}
+
+.cart__item-handler .btn:hover {
+    background: #cacaca;
+    border-radius: 0;
+}
+
+.cart-item__price {
+    text-align: right;
+}
+
+.order label {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.order-item {
+    line-height: 18px;
+    margin: 15px 0;
+    background: #fff;
+    padding: 11px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+}
+.form-check-label {
+    cursor: pointer !important;
+}
+
+.product-btn {
+    align-content: center;
+    text-align: center;
+}
+
+.cart-order-list {
+    background: #fff;
+    margin: 15px 0;
+    padding: 15px 0;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.cart-item {
+    padding: 15px;
+}
+
+.order-section {
+    background-color: #f7f8fa;
+    height: 100%;
+}
+
+.order-section p {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.order p {
+    font-weight: 600;
+}
+
+.cart-order-list p {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.cart__item__button {
+    font-size: 14px;
+    font-weight: 600;
+    background: #39b54a;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #39b54a;
+    display: block;
+    border-radius: 15px;
+    text-align: center;
+    width: 110px;
+    padding: 6px 0;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+.bg-brand {
+    background: #39b54a;
+    color: #fff;
+}
+.confirm-btn:hover {
+    color: #fff;
+}
+.cart-item-img {
+    width: 25%;
+}
+.cart__item-description {
+    width: 75%;
+}
+.cart-image {
+    border: 1px solid #d8d8d8;
+    padding: 3px;
+    width: 105px;
+}
+.empty__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    flex-direction: column;
+}
+.empty__image img {
+    width: 50%;
+    height: 50%;
+}
+.empty__image a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.bag{
+    font-size: 29px;
+    margin-right: 25px;
+}
+.check{
+    font-size: 22px;
+}
+.ItemIcon{
+    color: gray !important;
+}
+.dFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.smallPrice {
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.Icons{
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.bagIcon{
+    color: #39b54a;
+}
+.checkIcon{
+    color: #39b54a;
+
+}
+.totalMoney{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 225px;
+}
+/* .expend{
+    width: 120%;
+    overflow: scroll;
+} */
+/******** Responsive ***********/
+
+@media (max-width: 575.98px) {
+    .cart__item-description {
+        width: 70%;
+    }
+    .cart__item-handler input {
+        width: 40px;
+    }
+    .cart__item-handler {
+        height: 35px;
+    }
+    .cart__item-description__handle {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .cart__side__img img {
+        width: 65px;
+    }
+
+    .cart__side__item__name {
+        line-height: 17px !important;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .cart-input {
+        width: 66%;
+    }
+    .totalMoney {
+        padding-right: 45px;
+    }
+}
+
+.error-alert small {
+    color: red;
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .totalMoney {
+        padding-right: 45px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .totalMoney {
+        padding-right: 140px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}

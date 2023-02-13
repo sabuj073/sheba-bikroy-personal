@@ -1,0 +1,133 @@
+.date-filer{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+    flex-wrap: wrap;
+}
+.inputGroup{
+    margin-bottom: 8px;
+}
+.inputGroup label{
+    display: block;
+    text-align: left !important;
+}
+.customInput{
+    width: 100%;
+    font-size: 14px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.totalSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #e0e0e0;
+    padding: 10px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 3px;
+
+}
+
+.voucherSign{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+.voucherSign >div{
+    width: 250px;
+    text-align: center;
+}
+.border-das {
+    border-bottom: 2px dashed #666;
+    padding: 4px 0; 
+    margin: 3px 0;
+}
+.authorSign{
+    text-align: center;
+    font-size: 18px;
+}
+.voucherSign >input{
+    width: 100%;
+}
+.totalPart{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.paidPart{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.paidPart >  .form-check{
+    margin-right: 10px;
+}
+.priceSec{
+    border: 1px solid #333;
+    height: 100%;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    width: 150px;
+    text-align: center;
+}
+.titleSec{
+    font-size: 18px;
+    font-weight: 600; 
+}
+
+.Table thead tr{
+    text-align: center;
+    background: yellow;
+}
+.Table thead tr th{
+    padding: 5px 0;
+    border: 1px solid #333;
+}
+
+.Table tbody td{
+    min-width: 100px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.Table tbody td:nth-child(1){
+    min-width: 50px;
+}
+
+.Table tbody td:nth-child(2){
+    width: 370px;
+}
+
+
+/******** Responsive ***********/
+@media (max-width: 575.98px) {
+    .priceSec{
+        width: 100%
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .priceSec{
+        width: 100%
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+@media (min-width: 1200px) {
+}

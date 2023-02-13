@@ -1,0 +1,41 @@
+.ProductTable td, th {
+    text-align: center;
+}
+.ProductTable thead th{
+    background: #333;
+    color: #fff;
+}
+
+.ProductTable tbody td{
+    min-width: 130px;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.ProductTable tbody td:nth-child(1){
+    min-width: 50px;
+}
+
+
+/******** Responsive ***********/
+@media (max-width: 575.98px) {
+    .ProductTable tbody td:nth-child(3){
+        min-width: 190px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .ProductTable tbody td:nth-child(3){
+        min-width: 190px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   
+}
+
+@media (min-width: 1200px) {
+}

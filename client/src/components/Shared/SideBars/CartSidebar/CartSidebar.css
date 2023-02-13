@@ -1,0 +1,315 @@
+/****** Cart Sidebar *******/
+.cart-sidebar {
+    width: 400px;
+    min-height: 100vh;
+    position: fixed;
+    right: 0px;
+    z-index: 1111;
+    overflow-x: hidden;
+    background-color: #fff;
+    color: #333;
+}
+.cart-sidebar__close-icon {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100px;
+    width: 20px;
+    background: #428b46;
+    z-index: 100;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.cart-sidebar__close-icon:hover {
+    background: #1d6621;
+}
+.cart-sidebar__hide {
+    width: 0px !important;
+}
+.cart__side__header {
+    padding: 5px 0;
+}
+.cart__side__header svg {
+    width: 28px;
+    color: #dc1e1e;
+    background-color: #fff;
+    height: 100%;
+    margin-right: 8px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.cart-sidebar__header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #f2f2f2;
+    position: relative;
+}
+.cart-sidebar__headerIcon,
+.cart-sidebar__header-close-icon {
+    font-size: 25px;
+    margin-top: -10px;
+}
+.cart-sidebar__header-total-product {
+    position: absolute;
+    font-size: 12px;
+    top: 23px;
+    left: 28px;
+    font-weight: 700;
+}
+
+.cart__side__img {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-right: 4px;
+    padding-left: 14px;
+}
+.cart__side__img img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.cart__side__details {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-right: 4px;
+    padding-left: 2px !important;
+}
+.cart__side__item__name {
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 600;
+    padding: 0 !important;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.cart__side__item__brief {
+    font-size: 12px;
+    line-height: 13px;
+    padding: 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-right: 4px;
+}
+.cart__side__quantity {
+    padding: 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-right: 4px;
+}
+.center-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.item__quantity {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+}
+.item__icon {
+    color: #39b54a;
+    cursor: pointer;
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.item__icon:hover {
+    transform: scale(1.2);
+}
+.cart__side__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item__price {
+    font-weight: 600;
+    font-size: 14px;
+}
+.item__price__reduced {
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.cart__side__remove {
+    display: flex;
+    align-items: center;
+}
+.cart__side__remove svg {
+    color: rgb(172, 26, 26);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.cart__side__remove svg:hover {
+    transform: scale(1.2);
+}
+
+/*********** Order promo ***********/
+.order__promo__btn {
+    border: 0;
+    background: 0 0;
+    font-size: 14px;
+    height: 30px;
+    width: 100%;
+    outline: 0;
+    text-align: left;
+    padding-left: 28px;
+}
+.order__promo__btn:hover {
+    background: #e3e3e3;
+}
+.order__total__price {
+    display: flex;
+}
+.order__promo__flied {
+    padding-left: 18px;
+}
+.order__promo__btn__proceed {
+    color: #fff;
+    font-size: 14px;
+    text-transform: none;
+    border: none;
+    border-radius: 3px;
+    line-height: 28px;
+    width: 150px;
+    margin: 16px 0 0 -4px;
+    box-shadow: 0 0 5px #ccc;
+    background: #39b54a;
+    padding: 5px 10px;
+}
+.order__promo__btn__back__common {
+    color: #000;
+    font-size: 14px;
+    text-transform: none;
+    border: none;
+    border-radius: 3px;
+    line-height: 28px;
+    margin: 7px 0 0 17px;
+    box-shadow: 0 0 5px #ccc;
+    background: #f9f9f9;
+    padding: 0px 16px;
+    font-weight: 600;
+}
+.OrderPrice{
+    margin-left: 100px;
+}
+.order__promo__btn__back {
+    color: #333;
+    font-size: 14px;
+    text-transform: none;
+    border: none;
+    border-radius: 3px;
+    line-height: 28px;
+    width: 85px;
+    margin: 11px 0 0 55px;
+    box-shadow: 0 0 5px #ccc;
+    background: #f9f9f9;
+}
+.order__promo__field {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.order__promo__btn__go:hover {
+    background: #ff1b25;
+}
+
+.order__promo__btn__icon {
+    font-size: 15px;
+    color: #5d5d5d;
+    margin-right: 6px;
+}
+
+.order__place__footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: inherit;
+    height: 110px;
+    background: #fafafa;
+    border-top: 2px solid #33333326;
+    padding-top: 6px;
+}
+.cart-sidebar-products {
+    height: 77vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 15px;
+}
+.cart-sidebar-products::-webkit-scrollbar {
+    width: 7px;
+    background: transparent;
+}
+.cart-sidebar-products::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+}
+.cart-sidebar-products::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+/******** Responsive ***********/
+@media (max-width: 575.98px) {
+    .cart-sidebar__header-total-product {
+        top: 21px;
+    }
+    .cart-sidebar {
+        width: 100%;
+    }
+    .order__promo__btn__back {
+        margin: 11px 0 0 14px;
+    }
+    .order__promo__btn__back__common {
+        margin: 7px 0 0 5px;
+    }
+    .OrderPrice{
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .order__promo__btn__back__common {
+        margin: 7px 0 0 5px;
+    }
+    .cart-sidebar {
+        width: 320px;
+    }
+    .cart-sidebar__close-icon {
+        width: 15px;
+    }
+    .order__promo__btn__back {
+        margin: 11px 0 0 18px;
+    }
+
+    .cart-sidebar__items {
+        padding: 10px 20px 10px 20px;
+    }
+    .cart-sidebar__header-total-product {
+        top: 21px;
+    }
+    .OrderPrice{
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}

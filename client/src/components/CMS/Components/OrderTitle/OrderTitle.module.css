@@ -1,0 +1,49 @@
+.orderTitleWrapper {
+    background: orange;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 20px;
+    margin: 20px 0;
+    border-radius: 6px;
+    flex-wrap: wrap;
+}
+.orderTitle {
+    font-weight: 600;
+}
+.orderSelect {
+    width: 150px;
+    border: 2px solid #555;
+    border-radius: 4px;
+}
+.orderSelect:focus {
+    outline: none;
+}
+
+/******** Responsive ***********/
+@media (max-width: 575.98px) {
+    .orderTitleWrapper {
+        height: 90px;
+        margin-top: 5px; 
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .orderTitleWrapper {
+        height: 90px;
+        margin-top: 5px; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,245 @@
+table.dataTable thead th, table.dataTable tfoot th{
+    font-weight: 600 !important;
+}
+.cms__wrapper {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.cms__wrapper table th {
+    font-weight: 600;
+}
+.cms__page__content {
+    margin-left: 240px;
+    overflow: hidden;
+    padding: 0 15px 5px 15px;
+    min-height: 100vh;
+    margin-top: 70px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    background: #f6f6f6;
+}
+.cms-enlarged .cms__page__content {
+    margin-left: 70px !important;
+}
+.add__product label {
+    text-align: right;
+}
+.add__product__form__title {
+    font-weight: 600;
+    display: block;
+}
+.col-form-label {
+    line-height: 18px;
+}
+.text__small {
+    font-size: 13px;
+}
+
+.cms__title {
+    font-weight: 600;
+    color: #39b54a;
+    text-align: center;
+}
+.cmsHome__title {
+    text-align: center;
+    color: #39b54a;
+    padding: 10px 0;
+    background: #fff;
+    font-weight: 600;
+}
+.cms__subTitle {
+    font-weight: 600;
+    text-align: center;
+    color: darkslateblue;
+    padding-bottom: 25px;
+}
+.btn__rounded {
+    border-radius: 25px;
+}
+.btn-success {
+    background-color: #39b54a !important;
+    outline: none;
+    border: none;
+}
+
+.product__color__wrapper {
+    display: flex;
+    width: 100%;
+    border: 1px solid #d0cbcb;
+    border-radius: 5px;
+}
+.product__color__input {
+    border: none;
+    outline: none;
+    width: 75%;
+    margin-left: 5px;
+}
+.product__color__add {
+    background: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #999;
+    height: 33px;
+    margin: auto;
+    padding: 5px;
+}
+
+.all__box__wrapper {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.box__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.print{
+    background: #39b54a;
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.printWrapper{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.printWrapper input{
+    outline: none;
+    padding-left: 10px;
+    border: 1px solid #333;
+}
+
+@media (max-width: 575.98px) {
+    .box__wrapper {
+        display: block;
+    }
+    .box__wrapper h1 {
+        text-align: center;
+    }
+    .all__box__wrapper {
+        display: block;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .add__product label {
+        text-align: left;
+    }
+    .add__product {
+        font-size: 14px;
+    }
+    .product__color__wrapper span {
+        display: none;
+    }
+}
+
+/********** Dealer ************/
+.add__dealer__form label {
+    text-align: right;
+    font-weight: 600;
+}
+.present__address {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(173, 173, 173);
+    padding: 5px;
+    border-radius: 4px;
+}
+.dealer__area__setup__wrapper {
+    text-align: center;
+    font-weight: 600;
+}
+.dealer__area__setup__wrapper label {
+    padding-right: 10px;
+}
+
+.present__address span {
+    font-weight: 600;
+}
+.present__address select {
+    width: 200px;
+}
+.information {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.information span {
+    background: #e65645;
+    padding: 5px 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/************ Dealer ****************/
+.setup__area__delivery__charge {
+    background: #fff;
+    border: 2px solid #fff;
+    margin-top: 10px;
+}
+.setup__area__delivery__charge__title {
+    background: #e65645;
+    padding: 3px 0;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.setup__area__delivery__charge__bottom__title {
+    padding: 10px;
+}
+.dealer__btn {
+    background: #39b54a;
+    color: #fff;
+    margin-right: 3px;
+}
+.dealer__btn:hover {
+    color: #fff;
+}
+
+.dealer__area__setup {
+    width: 190px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+}
+.dealer__area__setup .form-check {
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
+
+/*********** Category *************/
+
+.create__category__form label {
+    text-align: right;
+}
+.add__category__form__title {
+    font-weight: 600;
+    display: block;
+}
+
+@media (max-width: 575.98px) {
+    .create__category__form {
+        font-size: 14px;
+    }
+    .cms__wrapper input {
+        font-size: 14px;
+    }
+    .cms__page__content {
+        margin-left: 0px;
+    }
+    .cms-enlarged .cms__page__content {
+        margin-left: 0 !important;
+    }
+    .create__category__form label {
+        text-align: left;
+    }
+}

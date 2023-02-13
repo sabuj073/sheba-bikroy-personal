@@ -1,0 +1,46 @@
+.show__btn {
+    height: 28px;
+    width: 28px;
+    padding: 6px;
+    background: #39b54a;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+.show__btn:hover {
+    background: #2d2d2d;
+}
+
+/******* Table *******/
+.subscriptions {
+    padding-top: 10px;
+}
+.subscriptions table {
+    width: 100%;
+}
+.subscriptions table tr {
+    height: 33px;
+}
+.subscriptions table th {
+    font-weight: 600;
+    font-size: 14px;
+}
+.subscriptions table tbody td {
+    padding-left: 0px;
+    font-size: 14px;
+}
+
+@media (max-width: 575.98px) {
+    .subscriptions table th {
+        padding-right: 50px;
+    }
+    .subscriptions {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .subscriptions table tbody td {
+        padding-left: 0px;
+    }
+}

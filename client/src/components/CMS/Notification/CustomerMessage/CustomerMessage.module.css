@@ -1,0 +1,68 @@
+.messageHistory{
+    padding: 10px;
+    background: #fff;
+    margin-top: 40px;
+}
+.messageHistoryTitle{
+    background: #00aeef;
+    margin-top: 10px;
+    padding: 9px;
+    color: #fff;
+    margin-bottom: 17px;
+}
+
+.messageFilter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.vendorTableWrapper {
+    background: #fff;
+    padding: 20px 0px;
+    overflow-x: auto;
+}
+.vendorTable {
+    width: 100%;
+}
+.vendorTable thead th {
+    background: #f7931d;
+    color: #fff;
+    padding-left: 10px;
+    border: 1px solid #333;
+}
+.vendorTable tr {
+    padding-left: 10px;
+}
+.vendorTable tr td {
+    padding-left: 10px;
+}
+
+.vendorTable th {
+    padding: 8px;
+}
+.vendorTable td {
+    padding: 5px;
+}
+
+.vendorTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.vendorTable tbody tr:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+.messageFilterOption select{
+    margin-right: 15px;
+}
+.messageFilter select{
+    width: 150px;
+}
+.button {
+    color: #fff;
+    padding: 3px 10px;
+    border: none;
+    margin-bottom: 4px;
+    background-color: red;
+}

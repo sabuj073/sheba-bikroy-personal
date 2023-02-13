@@ -1,0 +1,78 @@
+/********* subscribe *********/
+.subscribe {
+    box-shadow: 1px 1px 5px #444;
+    padding: 15px 12px;
+    border-radius: 8px;
+}
+.subscribe__form {
+    display: flex;
+    margin-bottom: 10px;
+}
+.subscribe__form__input {
+    margin-right: 7px;
+    margin-left: 7px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    display: block;
+    width: 100%;
+    border: 1px solid #e2e8f0;
+    font-size: 14px;
+    color: #000 !important;
+    padding-left: 11px;
+}
+.subscribe__form__input:focus {
+    border: 1px solid #e2e8f0;
+    outline: none;
+}
+.subscribe__btn {
+    border: none;
+    background: #39b54a;
+    color: #fff;
+    font-size: 14px;
+    width: 76px;
+    border-radius: 5px;
+    font-weight: 600;
+    height: 34px;
+}
+
+.wallet__ref h6 {
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.wallet__ref input {
+    width: 50%;
+}
+/******* Table *******/
+.subscriptions {
+    padding-top: 20px;
+}
+.subscriptions table {
+    width: 100%;
+}
+.subscriptions table thead th {
+    background: #39b54a;
+    color: #fff;
+    padding: 3px 6px;
+}
+.subscriptions table tbody tr td {
+    padding: 3px 6px;
+}
+.subscriptions table tr {
+    height: 33px;
+}
+.subscriptions table th {
+    font-weight: 600;
+}
+.subscriptions table tbody td {
+    padding-left: 0px;
+}
+
+@media (max-width: 575.98px) {
+    .subscribe__form {
+        display: block;
+    }
+    .subscribe__form__input {
+        width: 100%;
+        margin-bottom: 6px;
+    }
+}

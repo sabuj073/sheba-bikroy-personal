@@ -1,0 +1,126 @@
+.invoiceTitle {
+    background: #39b54a;
+    color: #fff;
+    padding: 3px;
+    padding-left: 10px;
+}
+.invoice {
+    padding: 25px;
+    background: #fff;
+}
+.invoiceAddress {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.invoiceLogo {
+    width: 65px;
+    object-fit: contain;
+}
+.invoiceText {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: italic;
+}
+.invoiceName {
+    font-weight: 600;
+    margin-top: 5px;
+}
+.invoiceName span {
+    text-transform: uppercase;
+}
+.invoiceLocation span {
+    margin-right: 6px;
+    border: 1px solid #3333;
+    padding: 0px 5px;
+}
+.titleTable {
+    width: 100%;
+}
+.titleTable tr th {
+    background: #39b54a;
+    color: #fff;
+    padding: 3px 8px;
+    font-weight: 600;
+}
+.titleTable tr td {
+    padding: 3px 8px;
+    padding-top: 10px;
+}
+.border {
+    padding-top: 5px;
+    border-bottom: 2px dashed #3333;
+}
+.invoiceTable {
+    margin-top: 30px;
+}
+.invoiceTable th {
+    font-size: 15px;
+    padding: 5px;
+}
+.invoiceTable thead tr {
+    background: #ececec ;
+}
+.invoiceTable tbody td {
+    font-size: 14px;
+    text-align: center;
+}
+.invoiceTable tbody td{
+    min-width: 100px;
+}
+.invoiceTableWrapper {
+    overflow-x: auto;
+    width: 100%;
+}
+.invoiceSummery {
+    display: flex;
+    justify-content: flex-end;
+}
+.summery {
+    width: 240px;
+    margin-top: 15px;
+}
+.summery p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 3px;
+}
+.inTotal {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    color: #39b54a;
+}
+.thank {
+    text-align: center;
+    padding: 25px 0;
+}
+.thank span {
+    background: #3333;
+    padding: 7px 15px;
+    font-weight: 600;
+    border-radius: 24px;
+    color: #666;
+    font-style: oblique;
+    font-size: 15px;
+}
+
+
+.invoiceTable thead tr th{
+    text-align: center;
+}
+.call{
+    font-size: 13px;
+    color: #fff;
+    margin-left: 5px;
+    display: inline-block;
+    background: #39b54a;
+    text-decoration: none;
+    padding: 0px 5px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}

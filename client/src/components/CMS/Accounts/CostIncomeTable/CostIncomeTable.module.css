@@ -1,0 +1,93 @@
+.Table{
+    text-align: center;
+    border: 1px solid #333;
+}
+.Table th{
+    font-weight: 600 !important;
+    font-size: 15px;
+    padding-bottom: 1px;
+    border: 1px solid #333 !important;
+    padding: 3px;
+}
+.Table td{
+    padding-bottom: 1px;
+    border: 1px solid #333 !important;
+    padding: 3px;
+}
+
+.TableTitle{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.TableHeader{
+    background: #39b54a;
+    color: #fff;
+}
+.TableHeader > th{
+    padding: 5px;
+}
+.editButton{
+    background: #39b54a !important;
+    color: #fff !important;
+    width: 35px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 13px;
+}
+
+.Card{
+    background: salmon;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 8px;
+}
+.Card span{
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: #333;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+/******** Responsive ***********/
+@media (max-width: 575.98px) {
+    .Card{
+        height: 80px;
+    }
+    .Card h2{
+        font-size: 15px;
+        font-weight: 600;
+       
+    }
+    .Card span{
+        padding: 2px 5px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+@media (min-width: 1200px) {
+}

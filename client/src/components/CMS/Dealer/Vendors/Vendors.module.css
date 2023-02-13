@@ -1,0 +1,138 @@
+.vendorTableWrapper {
+    background: #fff;
+    padding: 20px 15px;
+    overflow-x: auto;
+}
+.vendorTable {
+    width: 100%;
+}
+.vendorTable thead th {
+    background: #333;
+    color: #fff;
+    padding-left: 10px;
+    text-align: center;
+    border: 1px solid #333;
+}
+.vendorTable tr {
+    padding-left: 10px;
+}
+.vendorTable tr td {
+    padding-left: 10px;
+}
+
+.vendorTable th {
+    padding: 8px;
+}
+.vendorTable td {
+    padding: 5px;
+    text-align: center;
+}
+
+.vendorTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.vendorTable tbody tr:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+.invoice {
+    background-color: #39b54a;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: none;
+    width: 110px;
+}
+.details {
+    background-color: #1e88e5;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: none;
+}
+.location {
+    display: flex;
+}
+.location > span {
+    margin-right: 10px;
+}
+.locations {
+    width: 100%;
+    border: 1px solid #333;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.locations > span {
+    background: #3333;
+    margin-right: 5px;
+    font-size: 12px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4px;
+    border-radius: 3px;
+    padding-right: 0;
+    margin-bottom: 2px;
+}
+.cut {
+    padding: 3px;
+    cursor: pointer;
+    font-weight: 600;
+    height: 100%;
+    margin-left: 4px;
+    border-radius: 3px;
+}
+.cut:hover {
+    background: #ff0000;
+    color: #fff;
+}
+.button {
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 4px;
+    margin-right: 5px;
+    width: 100px;
+}
+.payment {
+    background-color: deeppink;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: none;
+}
+.payment span {
+    display: block;
+}
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.vendorTable tbody td, th{
+    min-width: 140px;
+}
+.vendorTable tbody td:nth-child(1), th:nth-child(1){
+    min-width: 50px;
+}
+
+/******** Responsive ***********/
+@media (max-width: 575.98px) {
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}

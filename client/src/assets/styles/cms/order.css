@@ -1,0 +1,127 @@
+.order__information {
+	position: relative;
+	color: #fff;
+	text-align: center;
+	padding: 18px;
+	border-radius: 4px;
+	transition: all 0.3s;
+}
+
+.order__information:hover {
+	transform: scale(1.05);
+	box-shadow: 2px -2px 8px 0 rgb(31 31 31 / 21%);
+}
+
+.order__information--darkBlue {
+	background-color: #6a5acd;
+}
+.order__information--salmon {
+	background-color: #e74c3c;
+}
+.order__information--wisteria {
+	background-color: #8e44ad;
+}
+
+.order__information--deeppink {
+	background-color: deeppink;
+}
+.order__information--orange {
+	background-color: #ffc312;
+}
+.order__information--blue {
+	background-color: #3498db;
+}
+.order__information--green {
+	background-color: #2ecc71;
+}
+.order__information--darkOrange {
+	background-color: #ff793f;
+}
+.order__information--mazarinBlue {
+	background-color: #273c75;
+}
+.order__information--black {
+	background-color: #444;
+}
+
+.order__information--darkRed {
+	background-color: #c0392b;
+}
+.order__information--darkPink {
+	background-color: deeppink;
+}
+.order__information--midNightBlue {
+	background-color: #2c3e50;
+}
+.order__information__view {
+	background: #fff;
+	position: absolute;
+	top: 10px;
+	right: 7px;
+	color: #333;
+	font-size: 13px;
+	border-radius: 3px;
+	padding: 0px 6px;
+	font-weight: 600;
+	cursor: pointer;
+	text-decoration: none;
+}
+.all__box__wrapper .order__information {
+	width: 200px;
+}
+.all__box__wrapper .order__information h3 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.all__box__wrapper .order__information h6 {
+	font-size: 15px;
+}
+.order__information h5 {
+	font-size: 16px;
+	font-weight: 600;
+}
+@media (max-width: 575.98px) {
+	.all__box__wrapper .order__information {
+		width: 100%;
+	}
+}
+/******* order table *********/
+.big__table {
+	overflow-x: auto;
+	width: 180%;
+}
+.big__table2 {
+	width: 130%;
+	overflow-x: auto;
+}
+.big__table select {
+	font-size: 14px;
+}
+.big__table th {
+	font-size: 15px;
+}
+.big__table td {
+	font-size: 14px;
+}
+.order__select__wrapper {
+	display: flex;
+}
+.order__select__wrapper select {
+	margin-right: 4px;
+}
+.span__block span {
+	display: block;
+}
+.payment__status {
+	font-size: 14px;
+	color: #fff;
+	padding: 4px 8px;
+	margin-right: 5px;
+	border-radius: 4px;
+}
+.payment__status--paid {
+	background-color: gray;
+}
+.payment__status--unpaid {
+	background-color: red;
+}

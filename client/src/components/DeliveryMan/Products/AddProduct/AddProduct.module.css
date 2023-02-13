@@ -1,0 +1,12 @@
+.productColorWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.colorButton {
+    padding: 6px;
+    border-radius: 5px;
+    background: #39b54a;
+    color: #fff;
+    margin-left: 4px;
+    border: none;
+}

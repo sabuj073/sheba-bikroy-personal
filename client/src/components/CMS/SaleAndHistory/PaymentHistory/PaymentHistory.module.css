@@ -1,0 +1,80 @@
+.newOrderTableWrapper {
+    background: #fff;
+    padding: 20px 15px;
+    overflow-x: auto;
+}
+.newOrderTable {
+    width: 100%;
+}
+.newOrderTable thead th {
+    background: #333;
+    color: #fff;
+    padding-left: 10px;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+.newOrderTable tr {
+    padding-left: 10px;
+}
+.newOrderTable tr td {
+    padding-left: 10px;
+}
+
+.newOrderTable th {
+    padding: 8px;
+}
+.newOrderTable td {
+    padding: 5px;
+}
+
+.newOrderTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.newOrderTable tbody tr:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+.invoice {
+    background-color: #39b54a;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: none;
+}
+.details {
+    background-color: #1e88e5;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: none;
+}
+.location span {
+    /* border: 1px solid #333; */
+    padding: 1px 3px;
+    text-align: center;
+    margin-right: 6px;
+}
+.orderSelect {
+    width: 150px;
+    background: green;
+    color: #fff;
+    border-color: #333;
+}
+.orderSelect:focus {
+    outline: none;
+}
+.payment {
+    border: none;
+    background: #39b54a;
+    color: #fff;
+    margin-left: 5px;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+.newOrderTable th, td{
+    min-width: 150px;
+    text-align: center;
+}
+.newOrderTable th:nth-child(1), td:nth-child(1){
+    min-width: 50px;
+    text-align: center;
+}

@@ -1,0 +1,132 @@
+:root {
+    --font-color: #424242;
+    --border-color: #bdbdbd;
+    --hover-color: ;
+}
+
+.post {
+    font-size: 15px;
+    margin-top: 25px;
+    padding: 15px 0;
+}
+
+.content {
+    padding: 30px;
+}
+
+.post-title h4 {
+    font-size: 26px;
+    line-height: normal;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.meta {
+    margin-top: 10px;
+}
+
+.meta li {
+    display: inline-block;
+    font-size: 14px;
+    color: var(--font-color);
+    margin: 5px;
+    list-style: none;
+}
+
+.meta li span {
+    padding-right: 5px;
+}
+
+.share-post {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #bdbdbd;
+    text-align: justify;
+}
+
+.share-post span {
+    font-weight: 700;
+}
+.share-post span svg {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+.share-post ul {
+    float: right;
+}
+
+.share-post ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.recent-title {
+    background-color: #39b54a !important;
+    color: white;
+    padding: 5px 14px;
+    font-size: 22px;
+    border-radius: 3px;
+}
+.recent-post a {
+    text-decoration: none;
+}
+.description {
+    font-size: 14px;
+    margin-top: -10px;
+    display: block;
+    color: #666;
+}
+.tags {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.tag {
+    background: #cacaca;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-right: 5px;
+    margin-top: 5px;
+    color: #282525;
+    text-transform: uppercase;
+}
+
+.blog-item {
+    box-shadow: 0 5px 11px 0 rgb(148 146 245 / 15%);
+    border-radius: 8px;
+    background: #fff;
+}
+
+.blog-txt {
+    height: 100%;
+    padding: 8px 10px;
+    color: #333;
+}
+
+.blog-txt h4 {
+    color: #333;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.blog-txt h4:hover {
+    color: #39b54a;
+}
+
+.admin {
+    color: #b3b3b3;
+    font-size: 15px;
+    padding-top: 0px;
+    margin-bottom: 4px;
+}
+
+.blog-img img {
+    transition: all 0.4s ease-in;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.blog-btn {
+    font-size: 14px;
+    color: #5f5f5f;
+}

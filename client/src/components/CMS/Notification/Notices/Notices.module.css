@@ -1,0 +1,165 @@
+.notices{
+    padding: 10px;
+    background: #fff;
+    margin-top: 40px;
+}
+.noticeTitle{
+    background: #00aeef;
+    margin-top: 10px;
+    padding: 9px;
+    color: #fff;
+    margin-bottom: 17px;
+}
+.noticeTitle h3{
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.selects{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.selectOption{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.selectOption h6{
+    width: 100px;
+}
+.selectOption select{
+    margin-left: 10px;
+    width: 150px;
+}
+.selectOption span{
+    margin-left: 10px;
+
+}
+.selectMessage{
+    margin-top: 25px;
+}
+.selectMessage textarea{
+    width: 100%;
+}
+.submit__btn {
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255, 255, 255, var(--text-opacity));
+    margin-right: 1rem;
+    background-color: #39b54a;
+    border: none;
+    padding: 5px 11px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.vendorTableWrapper {
+    background: #fff;
+    padding: 20px 15px;
+    overflow-x: auto;
+}
+.vendorTable {
+    width: 100%;
+}
+.vendorTable thead th {
+    background: #f7931d;
+    color: #fff;
+    padding-left: 10px;
+}
+.vendorTable tr {
+    padding-left: 10px;
+}
+.vendorTable tr td {
+    padding-left: 10px;
+}
+
+.vendorTable th {
+    padding: 8px;
+    border: 1px solid #333;
+}
+.vendorTable td {
+    padding: 5px;
+}
+
+.vendorTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.vendorTable tbody tr:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+.invoice {
+    background-color: #39b54a;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: none;
+    width: 120px;
+}
+.details {
+    background-color: #1e88e5;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: none;
+}
+.location {
+    display: flex;
+}
+.location > span {
+    margin-right: 10px;
+}
+.locations {
+    width: 100%;
+    border: 1px solid #333;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    /* flex-wrap: wrap; */
+}
+.locations > span {
+    background: #3333;
+    margin-right: 5px;
+    font-size: 12px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4px;
+    border-radius: 3px;
+    padding-right: 0;
+    margin-bottom: 2px;
+}
+.cut {
+    padding: 3px;
+    cursor: pointer;
+    font-weight: 600;
+    height: 100%;
+    margin-left: 4px;
+    border-radius: 3px;
+}
+.cut:hover {
+    background: #ff0000;
+    color: #fff;
+}
+.button {
+    color: #fff;
+    padding: 3px 10px;
+    border: none;
+    margin-bottom: 4px;
+}
+.payment {
+    background-color: deeppink;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: none;
+}
+.payment span {
+    display: block;
+}
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+}

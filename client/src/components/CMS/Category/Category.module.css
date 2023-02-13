@@ -1,0 +1,41 @@
+.categoryTable thead th{
+    background: #333;
+    color: #fff;
+}
+.categoryTable td, th {
+    text-align: center;
+}
+
+.categoryTable tbody td{
+    min-width: 130px;
+    font-size: 14px;
+}
+.categoryTable tbody td:nth-child(1){
+    min-width: 50px;
+}
+.ProductTable td, th {
+    text-align: center;
+}
+
+
+/******** Responsive ***********/
+@media (max-width: 575.98px) {
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   
+}
+
+@media (min-width: 1200px) {
+}
+
+.d-none{
+    display: none;
+}

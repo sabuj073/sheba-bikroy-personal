@@ -1,0 +1,51 @@
+.ProfitAndLoss{
+    margin-top: 25px; 
+}
+.ProfitAndLoss th, td{
+    border: 1px solid #777;
+    min-width: 150px ;
+    text-align: center;
+}
+.ProfitAndLoss tbody th:nth-child(1){
+    background: yellow;
+    padding: 4px;
+    color: #333;
+}
+
+.ProfitAndLoss tbody th{
+    background: #2e3092;
+    padding: 4px;
+    color: #fff;
+}
+.income{
+    background: green ;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+}
+.total{
+    font-weight: 600;
+    color: rgb(187, 9, 9);
+}
+.profitData{
+    background: #bcbdc0;
+    color: #fff;
+   font-weight: 600;
+}
+.lossData{
+    background: #ee1d23;
+    color: #fff;
+    font-weight: 600;
+}
+.allTotal{
+    background: #00aeef !important;
+    color: #fff;
+}
+.prof{
+    background: green !important;
+    color: #fff !important;
+}
+.lossValue{
+    background: deeppink !important ;
+    color: #fff !important;
+}

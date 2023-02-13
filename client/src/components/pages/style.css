@@ -1,0 +1,119 @@
+.page__bg__img {
+    position: relative;
+    display: block;
+    margin: auto;
+    max-width: 1200px;
+}
+.page__img {
+    background-image: url(../../assets/images/privacy2.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 310px;
+    transition: 0.5s ease-in-out;
+}
+.page__title {
+    font-size: 28px;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.page__links {
+    margin: auto;
+    margin-top: 40px;
+}
+.page__links__wrapper {
+    overflow: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.page__link {
+    color: #000;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    line-height: 22px;
+    opacity: 0.9;
+    list-style: disc;
+    margin-bottom: 10px;
+}
+.page__link a {
+    text-decoration: none;
+    color: #000;
+}
+.page__content {
+    padding-top: 30px !important;
+    padding-bottom: 50px;
+}
+.page__con {
+    padding: 20px 0;
+    font-size: 15px;
+}
+.page__active {
+    border-bottom: 2px solid #39b54a;
+    display: inline-block;
+    padding-bottom: 4px;
+    color: #39b54a !important;
+}
+
+.form-btn {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #39b54a;
+
+    background: #39b54a;
+    width: 140px;
+    display: block;
+    transition: 0.3s ease-in;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    margin-top: 8px;
+}
+
+.input-group-text {
+    color: #39b54a;
+}
+
+/******** Responsive ***********/
+@media (max-width: 575.98px) {
+    .page__img {
+        min-height: 145px;
+    }
+    .page__title {
+        font-size: 23px;
+        top: 18%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .page__img {
+        min-height: 160px;
+    }
+    .page__title {
+        font-size: 23px;
+        top: 18%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .page__img {
+        min-height: 200px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}

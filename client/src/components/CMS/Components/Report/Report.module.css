@@ -1,0 +1,29 @@
+.report {
+    background: #fff;
+    padding: 20px 15px;
+    text-align: center;
+    margin: 15px;
+    box-shadow: 0 0 5px -2px #444;
+}
+.reportAmount {
+    border: 16px solid;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.reportName {
+    margin-top: 20px;
+}
+.reportName h6 {
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.reportName p {
+    font-size: 14px;
+    color: #888;
+}

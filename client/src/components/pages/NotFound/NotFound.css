@@ -1,0 +1,31 @@
+.no-match {
+    background: url(../../../assets/images/notfound.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.no-match h1 {
+    font-size: 80px;
+    margin-top: -60px;
+}
+.no-match h4 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.no-match h5 {
+    text-align: center;
+}
+.btn-rounded {
+    border: none;
+    border-radius: 25px;
+    padding: 6px 20px;
+    background: #39b54a;
+}
+.btn-rounded:hover {
+    background: #39b54a;
+}

@@ -1,0 +1,64 @@
+.SendMessage{
+    padding: 10px;
+    background: #fff;
+    margin-top: 40px;
+}
+.sendMessageTitle{
+    background: #00aeef;
+    margin-top: 10px;
+    color: #fff;
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 53px;
+}
+.sendMessageTitle h3{
+    padding: 9px;
+}
+.sendMessageTitle span{
+    background: darkorange;
+    height: 100%;
+    display: block;
+    padding: 15px;
+    font-weight: 600;
+}
+.checkBox{
+    display:flex;
+    flex-wrap: wrap;
+}
+.selectOption{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.selectOption h6{
+    width: 100px;
+}
+.selectOption select{
+    margin-left: 10px;
+    width: 150px;
+}
+.selectOption span{
+    margin-left: 10px;
+
+}
+.selectMessage{
+    margin-top: 25px;
+    margin-left: 16px;
+}
+.selectMessage textarea{
+    width: 100%;
+}
+.submit__btn {
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255, 255, 255, var(--text-opacity));
+    margin-right: 1rem;
+    background-color: #39b54a;
+    border: none;
+    padding: 5px 11px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+}
