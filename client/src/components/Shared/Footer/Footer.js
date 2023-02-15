@@ -68,6 +68,15 @@ const Footer = () => {
                 <Link to="/t/corporate" className="footer__link">
                   {language ? "Be Seller" : "বিক্রেতা হও"}
                 </Link>
+                <Link to="/cms" className="footer__link">
+                  {language ? "Vendor Login" : "বিক্রেতা লগইন"}
+                </Link>
+                <Link to="/cms" className="footer__link">
+                  {language ? "Delivery Man Login" : "ডেলিভারি ম্যান লগইন"}
+                </Link>
+                <Link to="/cms" className="footer__link">
+                  {language ? "Service Provider Login" : "ডেলিভারি ম্যান লগইন"}
+                </Link>
               </div>
             </div>
           </div>

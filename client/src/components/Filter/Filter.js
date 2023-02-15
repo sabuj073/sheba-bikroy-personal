@@ -11,6 +11,7 @@ import './Filter.css';
 
 const Filter = () => {
     const [vendors, setVendors] = useState([]);
+    const [cat_details, setcat_details] = useState([]);
     const { slug,title } = useParams();
     if (localStorage.getItem("language") === "en") {
         var language = true;
@@ -31,17 +32,42 @@ const Filter = () => {
           });
       };
 
+      const getCatDetails = async () => {
+        await instance
+          .post("main_home/get_cat_by_slug/", {
+                key: "7fbaf493e3fe38a48934d93a3168926018adb657",
+                slug: slug,
+          })
+          .then((response) => {
+            if (cat_details.length === 0) {
+                console.log(response.data);
+                setcat_details(response.data);
+            }
+          });
+      };
+
     getDetails();
-    console.log(vendors);
+    if(vendors.length==0){
+        getDetails();
+    }
+    if(cat_details.length==0){
+        getCatDetails();
+    }
+    
+    
 
     return (
         <div className="pb-4">
             <div className="container-fluid p-0">
                 <div className="row g-3 ">
                     <div className="col-12">
+                        {cat_details.map((val,key) => {
+                            return (
                         <div className="filter__image__wrapper">
-                            <img src={image1} alt="" className='img-fluid banner-fluid'/>
+                            <img src={val.cat_banner} alt={val.cat_title} className='img-fluid banner-fluid'/>
                         </div>
+                         );
+                        })}
                     </div>
                 </div>
             </div>

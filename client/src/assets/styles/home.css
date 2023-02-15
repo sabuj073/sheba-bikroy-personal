@@ -228,3 +228,8 @@
 .slick-slide img {
   width: 100% !important;
 }
+
+.custom-px{
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}

@@ -28,7 +28,7 @@ const Services = (props) => {
     getCat();
     return (
         <div className="main__home__services">
-            <div className="container">
+            <div className="">
                 <div className="main__home__title__wrapper">
                     <span className="main__home__title">
                         Our Services Categories

@@ -48,6 +48,10 @@ const SelectArea = () => {
     if(document.getElementById("district_change")){
       document.getElementById("area_change").innerHTML = locationData.area_name;
     }
+  }else{
+    if(document.getElementById("open_modal")){
+      document.getElementById("open_modal").click();
+    }
   }
 
   function setlanguage() {
@@ -129,6 +133,7 @@ const SelectArea = () => {
       });
   };
   getDistrict_change();
+ 
 
   return (
     <section className="select__area">
@@ -162,6 +167,7 @@ const SelectArea = () => {
             <button
               className="btn btn-light btn-sm d-block d-lg-none"
               data-bs-toggle="modal"
+              id="open_modal"
               data-bs-target="#exampleModal"
             >
               Change

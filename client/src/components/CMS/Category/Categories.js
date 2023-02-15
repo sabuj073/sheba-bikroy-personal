@@ -59,6 +59,7 @@ const Categories = () => {
                   <th> Main Category</th>
                   <th>Icon</th>
                   <th>Image</th>
+                  <th>Banner</th>
                   <th>Action</th>
                 </tr>
               </thead>
@@ -81,6 +82,15 @@ const Categories = () => {
                         {" "}
                         <img
                           src={val.cat_image}
+                          width="70px"
+                          className="img-fluid"
+                          alt=""
+                        />{" "}
+                      </td>
+                      <td>
+                        {" "}
+                        <img
+                          src={val.cat_banner}
                           width="70px"
                           className="img-fluid"
                           alt=""

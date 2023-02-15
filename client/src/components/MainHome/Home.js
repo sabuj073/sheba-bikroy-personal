@@ -54,7 +54,7 @@ const MainHome = () => {
         <div className="container-fluid p-0">
           <HomeBanner />
         </div>
-        <div className="container px-2">
+        <div className="container px-2 custom-px">
           {info ? <Notice info={info} language={language} /> : <div></div>}
 
           <HomeInfo language={language} />

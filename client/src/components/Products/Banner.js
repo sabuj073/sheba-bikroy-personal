@@ -7,7 +7,8 @@ const Banner = () => {
 	return (
 		<div className="main__home__banner">
 			<div className="row g-4">
-				<div className="col-md-12">
+				<div className='col-md-2'></div>
+				<div className="col-md-8">
 					<Link to="/" className="main__home__banner__item " style={{ display: 'block' }}>
 						<img
 							src={image1}

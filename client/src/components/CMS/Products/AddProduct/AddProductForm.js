@@ -7,14 +7,15 @@ import Input from "../../Components/Input/Input";
 import InputFile from "../../Components/Input/InputFile";
 import SelectBox from "../../Components/Input/SelectBox";
 import styles from "./AddProduct.module.css";
+import instance from "../../../../base_url.js";
 
 const AddProductForm = ({ submitHandler, inputHandler, onChange }) => {
   const [description, setDescription] = useState("Hello There");
-  const categories = [
-    { id: 1, value: "electronic", name: "Electronic" },
-    { id: 2, value: "fashion", name: "Fashion" },
-    { id: 3, value: "baby", name: "Baby" },
-  ];
+  const [cat, setCat] = useState([]);
+  const categories = [];
+
+  const cat_options = [];
+  
   const subCategories = [
     { id: 1, value: "mobile", name: "mobile" },
     { id: 2, value: "t-shirt", name: "t-shirt" },
@@ -36,6 +37,46 @@ const AddProductForm = ({ submitHandler, inputHandler, onChange }) => {
     { value: "blue", label: "blue" },
     { value: "darkcyan", label: "darkcyan" },
   ];
+
+
+
+  const getCat = async () => {
+    await instance
+      .post("main_home/get_cat-all", {
+        key: "7fbaf493e3fe38a48934d93a3168926018adb657",
+      })
+      .then((response) => {
+        if (cat.length === 0) {
+          setCat(response.data);
+          cat.map((val, key) => {});
+        }
+      });
+  };
+
+  const getSubCat = async () => {
+    var cat_id = document.getElementById("category").val;
+    await instance
+      .post("main_home/get_sub_cat", {
+        key: "7fbaf493e3fe38a48934d93a3168926018adb657",
+      })
+      .then((response) => {
+        if (cat.length === 0) {
+          setCat(response.data);
+          cat.map((val, key) => {});
+        }
+      });
+  };
+
+  if(cat.length<=0){
+    getCat();
+  }
+
+  if(cat.length>0 && cat_options.length<=0){
+    cat.map((val, key) => {
+     return cat_options.push({value: val.cat_id, label: val.cat_title}); 
+    });
+}
+
 
   return (
     <form
@@ -80,13 +121,20 @@ const AddProductForm = ({ submitHandler, inputHandler, onChange }) => {
         onChange={inputHandler}
       />
 
-      <SelectBox
-        label="Category"
-        name="category"
-        required={true}
-        options={categories}
-        onChange={inputHandler}
-      />
+<div class="mb-3 row">
+   <label for="brand" class="col-sm-3 col-form-label"><span class="add__product__form__title">Select Categories *</span><span class="text-secondary text__small "></span></label>
+   <div class="col-sm-9">
+    <Select
+      name="category"
+      id="category"
+      options={cat_options}
+      className="basic-multi-select area__setup__input"
+      classNamePrefix="select"
+      // onChange={inputHandler}
+    /></div>
+</div>
+
+              
 
       <SelectBox
         label="Select Sub Category"
